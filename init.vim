@@ -44,7 +44,9 @@ Plug 'joshdick/onedark.vim'
 Plug 'ryanoasis/vim-devicons'
 
 Plug 'sheerun/vim-polyglot'
-
+" IndentGuides
+Plug 'thaerkh/vim-indentguides'
+Plug 'cohama/lexima.vim'
 call plug#end()
 
 " Syntastic recommended settings
@@ -56,6 +58,13 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" IndentGuides
+let g:indentguides_spacechar = '▏'
+let g:indentguides_tabchar = '▏'
+
+let g:indentguides_spacechar = '▏'
+let g:indentguides_tabchar = '▏'
 
 " Status bar plugin (vim-airline)
 let g:airline_left_sep = ''
